@@ -1,0 +1,29 @@
+{
+  "name": "jq-stream",
+  "version": "0.0.1",
+  "description": "Parse json stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "json",
+    "string",
+    "big file",
+    "iterator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/program-bot/jq-stream.git"
+  },
+  "author": "Mora",
+  "license": "ISC",
+  "dependencies": {
+    "JSONStream": "^1.1.1",
+    "event-stream": "^3.3.2",
+    "isstream": "^0.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
