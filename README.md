@@ -12,7 +12,7 @@ npm i --save jq-stream
 `jq(source, jsonpath, callback, done)`
 
 * source: Stream source, can be file, url or readable stream
-* jsonpath: Path used to parse source, @see https://github.com/dominictarr/JSONStream#jsonstreamparsepath
+* jsonpath: Path used to parse source, @see https://github.com/dominictarr/JSONStream#jsonstreamparsepath and http://goessner.net/articles/JsonPath/
 * callback: Called on each match jsonpath
 * done: Called on parsed
 
