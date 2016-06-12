@@ -1,5 +1,8 @@
 # jq-stream
 
+[![NPM version](https://badge.fury.io/js/jq-stream.svg)](https://npmjs.org/package/jq-stream)
+[![Build Status](https://travis-ci.org/qiu8310/jq-stream.svg?branch=master)](https://travis-ci.org/qiu8310/jq-stream)
+
 
 ## Install
 
