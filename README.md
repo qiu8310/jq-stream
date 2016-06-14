@@ -35,4 +35,26 @@ jq(
 
 ```
 
+## Articles about stream
 
+* [Why I don't use Node's core 'stream' module](https://r.va.gg/2014/06/why-i-dont-use-nodes-core-stream-module.html)
+* [Stream handbook](https://github.com/substack/stream-handbook)
+
+## TODO
+
+* [ ] __NO NEED__ to use `event-stream`
+* [ ] __NEED__ something like this:
+
+  ```js
+  jq('/path/to/file')
+    // "total_rows" property is on the top of the file,
+    // so we can get the total_rows first and then display 
+    // a progress bar on "row.*" iterator.
+    .on('total_rows', function (total) { /* ... */ })
+    .on('rows.*',     function ( row ) { /* ... */ })
+    .end(  function (   ) { /* ... */ }) // optional
+    .error(function (err) { /* ... */ }) // optional
+    .run();
+  ```
+
+* [ ] __COLLECT__ stream parser: `jsonparse`, `csv2`
