@@ -24,6 +24,6 @@
     "isstream": "^0.1.2"
   },
   "devDependencies": {
-    "mocha": "^2.5.3"
+    "mocha": "^3.0.1"
   }
 }
